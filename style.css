@@ -1,45 +1,78 @@
-
 *{
-padding: 0px;
-margin: 0px;
-font-weight: bold;
-}
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    }
+
  body{
     background-image: url(arkaplan.png);
     background-repeat: no-repeat;
     background-size: cover;
  }
  img{
-width: 150px;
-height: 150px;
+width: 200px;
+height: 200px;
  }
 .Kutu{
-background-color: gray;
+background-color: #80808060;
 width: 600px;
-height: 600px;
+height: 500px;
 text-align: center;
 display: block;
-padding: 20px;
+padding: 30px;
 position: absolute;
-top: 50%;
+top: 55%;
 left: 50%;
 margin-right: -50%;
 transform: translate(-50%, -50%);
 text-decoration: none;
 font-size: 30px;
+border: 2px solid rgba(0, 0, 0, 0.527) ;
 }
 h4{
     font-size: 50px;
     color: white;
 }
-.Kutu ul li{
-list-style: none;
-font-size: 60px;
-}
-.Kutu ul li a{
-color: orange;
-}
-.Kutu ul li :hover{
-    color: yellow;
- }
+
     
+.navbar {
+margin-right: 1250px;
+display: block;;
+height: 100px;
+width: 1536px;
+background-color: #333;
+overflow-y: hidden;
+
+}
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.navbar .active{
+background-color: green;
+margin-left: 600px;
+margin-top: 25px;
+border: 1px solid black;
+width: 140px;
+
+}
+
+.navbar .sayfa2{
+margin-top: 25px;
+margin-left: 20px;
+border: 1px solid black;
+width: 140px;
+
+}
+.icon{
+    font-size: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color:white;
+}

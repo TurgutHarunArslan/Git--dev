@@ -1,0 +1,107 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+background-image: url(7181.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+
+.navbar {
+    margin-right: 1250px;
+    display: block;;
+    height: 100px;
+    width: 1536px;
+    background-color: rgba(51, 51, 51, 0.623);
+    overflow-y: hidden;
+    
+    }
+    
+    .navbar a{
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navbar .active{
+    background-color: green;
+    margin-left: 40px;
+    margin-top: 25px;
+    border: 1px solid black;
+    width: 140px;
+    }
+    .navbar .sayfa2{
+    margin-top: 25px;
+    margin-left: 20px;
+    border: 1px solid black;
+    margin-left: 600px;
+    width: 140px;
+    }
+.not{
+font-weight: bold;
+font-size: 20px;
+color: white;
+}
+.ayse{
+font-size: 30px;
+background-color: rgba(255, 255, 255, 0.767);
+border: 2px solid black;
+display: inline-block;
+}
+.medine{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.767);
+    border: 2px solid black;
+    margin-left:30px;
+    margin-bottom: 150px;
+    display: inline-block;
+    }
+    .amine{
+        font-size: 30px;
+        background-color: rgba(255, 255, 255, 0.767);
+        border: 2px solid black;
+        margin-left:30px;
+        display: inline-block;
+        
+        }
+        .ecrin{
+            font-size: 30px;
+            background-color: rgba(255, 255, 255, 0.767);
+            border: 2px solid black;
+            margin-left:30px;
+            display: inline-block;
+            
+            }
+            .kerim{
+                font-size: 30px;
+                background-color: rgba(255, 255, 255, 0.767);
+                border: 2px solid black;
+                display: inline-block;
+                
+                }
+                .duha{
+                    font-size: 30px;
+                    background-color: rgba(255, 255, 255, 0.767);
+                    border: 2px solid black;
+                    margin-left:30px;
+                    display: inline-block;
+                    margin-bottom: 30px;
+                    
+                    }
+                    .turgut{
+                        font-size: 40px;
+                        background-color: rgba(255, 255, 255, 0.767);
+                        border: 2px solid black;
+                        margin-left:30px;
+                        display: inline-block;
+                        margin-bottom: 30px;
+                        
+                        }
+
