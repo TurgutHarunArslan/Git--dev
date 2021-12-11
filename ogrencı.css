@@ -1,11 +1,16 @@
+
+
 *{
 margin: 0px;
 padding: 0px;
 }
 body{
-background-image: url(7181.jpg);
+background-image: url(7181.jpg); 
 background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
 background-size: cover;
+
 }
 
 
@@ -14,11 +19,12 @@ background-size: cover;
 
 .navbar {
     margin-right: 1250px;
-    display: block;;
+    display: block;
     height: 100px;
-    width: 1536px;
-    background-color: rgba(51, 51, 51, 0.623);
-    overflow-y: hidden;
+    width: 100%;
+    max-width: 100%;
+    background-color: #333;
+    
     
     }
     
@@ -31,18 +37,18 @@ background-size: cover;
         font-size: 17px;
     }
     .navbar .active{
-    background-color: green;
-    margin-left: 40px;
-    margin-top: 25px;
-    border: 1px solid black;
-    width: 140px;
+        margin-left: 39%;
+        margin-top: 25px;
+        border: 1px solid black;
+        width: 140px;
     }
     .navbar .sayfa2{
-    margin-top: 25px;
-    margin-left: 20px;
-    border: 1px solid black;
-    margin-left: 600px;
-    width: 140px;
+        background-color: green;
+        margin-top: 25px;
+        margin-left: 20px;
+        border: 1px solid black;
+        width: 140px;
+        
     }
 .not{
 font-weight: bold;
@@ -105,3 +111,4 @@ display: inline-block;
                         
                         }
 
+                        img { max-width: 100%; height: auto; }
