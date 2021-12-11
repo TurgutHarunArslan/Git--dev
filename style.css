@@ -20,7 +20,7 @@ max-width: 100%;
  }
  .Kutu{
     background-color: #80808060;
-   width: 600px;
+   width: auto;
    height: 500px;
    text-align: center;
    display: block;
@@ -62,7 +62,7 @@ background-color: #333;
 
 .navbar .active{
 background-color: green;
-margin-left: 39%;
+margin-left: auto;
 margin-top: 25px;
 border: 1px solid black;
 width: 140px;
