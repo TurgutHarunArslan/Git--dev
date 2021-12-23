@@ -12,6 +12,9 @@ background-attachment: fixed;
 background-size: cover;
 
 }
+.active{
+ background-color:green;
+}
 
 
 
