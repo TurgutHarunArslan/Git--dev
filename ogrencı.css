@@ -76,6 +76,7 @@ background-size: cover;
     
 .hidden{
 display: none;
+background-color:green;
 }
 .navbar {
   overflow: hidden;
