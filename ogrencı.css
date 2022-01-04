@@ -56,7 +56,9 @@ background-size: cover;
 }
 
 
-
+.hidden{
+background-color: green;
+}
 
 
 
