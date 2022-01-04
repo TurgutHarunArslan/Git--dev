@@ -171,6 +171,24 @@ display: none;
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+    
+    
+     .Kutu{
+    background-color: #80808060;
+   width: auto;
+   height: 500px;
+   text-align: center;
+   display: block;
+   padding: 30px;
+   position: absolute;
+   top: 65%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+   text-decoration: none;
+   font-size: 30px;
+   border: 2px solid rgba(0, 0, 0, 0.527) ;
+   }
 
 }
 
