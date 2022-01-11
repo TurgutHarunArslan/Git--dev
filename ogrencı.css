@@ -76,8 +76,11 @@ width: 400px;
 
 
 
-@media screen and (max-width: 320px) {
 
+@media screen and (max-width: 320px) {
+  .hiddens{
+    display: none;
+    }
 
   .dropdown:hover .dropdown-content {
     display: block;
