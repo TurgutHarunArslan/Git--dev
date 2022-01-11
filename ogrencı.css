@@ -51,6 +51,7 @@ background-size: cover;
 }
 /* Navbar container */
 .navbar {
+
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
@@ -62,9 +63,21 @@ background-color: green;
 }
 
 
+.Dn{
+background-color: gray;
+font-size: 20px;
+width: 100%;
+}
+
+/*   5/a dropdown    */
+.a{
+width: 400px;
+}
+
 
 
 @media screen and (max-width: 320px) {
+
 
   .dropdown:hover .dropdown-content {
     display: block;

@@ -1,6 +1,7 @@
 
 
 *{
+
     padding: 0px;
     margin: 0px;
     font-weight: bold;
@@ -83,6 +84,7 @@ background-color: green;
 }
 /* Navbar container */
 .navbar {
+  
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
@@ -96,6 +98,7 @@ background-color: green;
 
 
 @media screen and (max-width: 320px) {
+
 
   .dropdown:hover .dropdown-content {
     display: block;
